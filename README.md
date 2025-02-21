@@ -1,5 +1,20 @@
 ## Related Works and Extended Application
 
+## git指令
+
+```bash
+git add .
+git commit -m '修改lioloc.cpp，支持p2s和GICP分开执行4'
+git push origin main
+```
+## 编译运行指令
+
+```bash
+catkin_make -j10
+source devel/setup.bash
+roslaunch fast_lio mapping_guangzhou_port.launch
+```
+
 **SLAM:**
 
 1. [ikd-Tree](https://github.com/hku-mars/ikd-Tree): A state-of-art dynamic KD-Tree for 3D kNN search.
