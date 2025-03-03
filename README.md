@@ -12,7 +12,7 @@ git push origin main
 ```bash
 catkin_make -j10
 source devel/setup.bash
-roslaunch fast_lio mapping_guangzhou_port.launch
+roslaunch fast_lio fast_lio-mapping_guangzhou_port.launch
 ```
 
 **SLAM:**
